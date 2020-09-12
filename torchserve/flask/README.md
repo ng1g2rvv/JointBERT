@@ -5,7 +5,7 @@ To start the Flask frontend for torchserve
 python main.py
 ```
 
-You should be able to view it at localhost/8888
+You should be able to view it at localhost:8888
 
 Additionally, you may forward set up an ngrok tunnel so other people can view this demo
 
