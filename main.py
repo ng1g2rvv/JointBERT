@@ -9,6 +9,7 @@ def main(args):
     init_logger()
     set_seed(args)
     tokenizer = load_tokenizer(args)
+    tokenizer.save_pretrained(args.model_dir)
 
     train_dataset = load_and_cache_examples(args, tokenizer, mode="train")
     dev_dataset = load_and_cache_examples(args, tokenizer, mode="dev")
