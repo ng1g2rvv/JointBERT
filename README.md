@@ -79,6 +79,10 @@ $ python3 predict.py --input_file {INPUT_FILE_PATH} --output_file {OUTPUT_FILE_P
 |           | ALBERT           | 97.64          | 95.78       | 88.13            |
 |           | ALBERT + CRF     | 97.42          | **96.32**   | **88.69**        |
 
+## Deployment
+
+- Model deployment is under [torchserve](/torchserve)
+
 ## Updates
 
 - 2019/12/03: Add DistilBert and RoBERTa result
