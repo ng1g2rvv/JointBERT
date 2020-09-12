@@ -21,4 +21,4 @@ Now you can send a POST request to the service
 curl -X POST http://127.0.0.1:8080/predictions/JointBERT -T ../sample_pred_in.txt
 ```
 
-Additionally, I have made a simple frontend under directory [flast](/flask)
+Additionally, I have made a simple frontend under directory [Flask](/torchserve/flask)
