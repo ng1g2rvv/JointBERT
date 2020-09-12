@@ -50,7 +50,6 @@ def read_input_file(pred_config):
     return lines
 
 
-# 把输入文本转换成tensor，用于输入BERT模型
 def convert_input_file_to_tensor_dataset(lines,
                                          pred_config,
                                          args,
